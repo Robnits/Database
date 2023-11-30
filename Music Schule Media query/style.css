@@ -1,0 +1,1345 @@
+
+/*HD Desktop--------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 640px) {
+    :root{
+        /*Farben deklaration*/
+        --hintergrund: rgb(0, 18, 68); 
+        --kopf: rgb(203, 156, 1);
+        --navigation: rgb(77, 142, 199);
+    }
+    body{
+        background-color: var(--hintergrund);
+        
+    }
+    html,body{
+        height:100%;
+        width: 100;
+    }
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        height: 75px;
+        background-color: var(--kopf);
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 16px;     
+        position: relative;
+        top: 0;
+        z-index: 0;
+    }
+    #navwrapper{
+        position: absolute;
+        height: 100%;
+        z-index: 2;
+        top: 0px;
+    }
+    nav{
+        padding-top: 100px;
+        width: 133px;
+        height: 100%;
+        background-color: var(--navigation);
+        position: fixed;
+        left: 0px;
+        z-index: 5;
+    }
+    nav ul li{
+        position: relative;
+        list-style: none;
+        padding: 5px 5px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        padding: 10px 0px;
+        font-size: 18px;
+        
+    } 
+    nav ul li ul{
+        display: none;
+        position: absolute;
+        top: -5px;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-left: 128px;
+        list-style: none;
+        width: 120px;
+        background-color: var(--navigation);
+        border-radius: 0px 10px 10px 0px;
+        padding-bottom: 5px;
+        
+    }
+    nav ul li:hover ul a{
+        display: block;
+        
+    }
+    nav ul li:hover ul{
+        display: block;
+    }
+    nav ul li ul li{
+        padding-left: -10px;
+    }
+    nav ul li ul li a{
+        width: 100px;
+    }
+    nav a:hover{
+        background-color: white;
+        border-radius: 4px;
+    }
+    main{
+        margin: 300px;
+    }
+    footer{
+        background-color: var(--kopf);
+        height: 55px;
+        z-index: 10;
+        width: 100%;
+        padding-left: 100px;
+        padding-top: 20px;
+        position: absolute;
+    }
+    footer a{
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 30px;
+        padding: 5px;
+    }
+    #wrapper{
+        height: auto;
+    }
+    #kihwrapper{
+        margin-top: 50px;
+        margin-left: 250px;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    #kihwrapper #heading{
+        
+        width: 100%;
+        text-align: center;
+    }
+    #kihwrapper form
+    {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    #kihwrapper h2{
+        background-color: white;
+        border: 2px solid black;
+        display: inline;
+        padding: 10px 50px;
+        margin-left: 120px;
+        white-space: nowrap;
+    }
+    #kihwrapper #d1{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 860px;
+    }
+    #kihwrapper #d2{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 430px;
+    }
+    #kihwrapper #d3{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    #kihwrapper #d4{
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 860px;
+    }
+    #kihwrapper #d5{
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 430px;
+    }
+    #kihwrapper #d6{
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 0px;
+    }
+    #kihwrapper a{
+        margin-top: 200px;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    #kihwrapper #txt1{
+        width: 500px;
+        background-color: white;
+        padding: 20px;
+        margin-top: 700px;
+        margin-left: 700px;
+    }
+    #kihwrapper #txt2{
+        position: absolute;
+        top: 725px;
+        width: 500px;
+        background-color: white;
+        padding: 20px;
+        z-index: 0;
+    }
+    #d2 img, #d3 img , #d1 img ,#d4 img, #d5 img , #d6 img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: white;
+        width: 200px;
+        height: 200px;
+        margin-left: 25px;
+        margin-top: 10px;
+    } 
+    #mwrapper
+    {
+        margin-top: 125px;
+        margin-left: 200px;
+        position: relative;
+    }
+    
+    #mwrapper #kkhauptschrift
+    {
+        margin-left: 400px;
+        width: 400px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+        
+    }
+    #mwrapper .klavierk{
+        width: 1300px;
+        text-align: center;
+        position: relative;
+    }
+    #mwrapper .kk1{
+        width: 500px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 50px;
+        height: 320px;
+        position: absolute;
+        border-radius: 25px;
+    }
+    #mwrapper .kk2{
+        width: 500px;
+        background-color: white;
+        padding: 50px;
+        margin-top: 100px;
+        height: 320px;
+        margin-left: 700px;
+        border-radius: 25px;
+    }
+    #mwrapper #kkbild{
+        width: 500px;
+        padding: 50px;
+        height: 300px;
+        margin-left: 700px;
+        border-radius: 25px;
+    }
+    #mwrapper #kkbild img{
+        width: 500px;
+        height: 300px;
+    }
+    
+    #mwrapper .kkpreisliste{
+        width: 500px;
+        padding: 50px;
+        height: 200px;
+        top: 50px;
+        position: absolute;
+        background-color: white;
+        border-radius: 25px;
+    
+    }
+    #kihwrapper .K-Instrumente{
+        border-radius: 100%;
+        height: 280px;
+        width: 280px;
+        background-color: white;
+    }
+    #kihwrapper .K-Instrumente img{
+        border-radius: 100%;
+        padding-left: 20px;
+    }
+    /* Preisliste Original */
+    #mtableprice td{
+        padding: 8px;
+       
+    }
+    .mlighttd {
+        background-color: rgb(166, 232, 249);
+    }
+    .mdarktd{
+        background-color: rgb(79, 205, 237);
+    }
+    
+    table {
+        border-spacing: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    
+    #mtol{ /* Marcel Tabelle oben links border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+    }
+    #mto{ /* Marcel Tabelle oben border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+        border-left: solid 1px rgb(163, 225, 241);
+    }
+    .mtl{ /* Marcel Tabelle links border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+    }
+    .mtm{ /*Marcel Tabelle Mittlere border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+        border-left: solid 1px rgb(163, 225, 241);
+        
+    }
+    #mtor{ /*Marcel Tabelle oben rechts border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-left: solid 1px rgb(163, 225, 241);
+        border-right: solid 2px rgb(163, 225, 241);
+    }
+    .mtr{ /*Marcel Tabelle rechts border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-left: solid 1px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+        border-right: solid 2px rgb(163, 225, 241);
+    }
+    #mtu{ /*Marcel Tabelle unten border*/
+        border-left: solid 1px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+        border-bottom: solid 2px rgb(163, 225, 241);
+    }
+    #mtur{ /*Marcel Tabelle unter rechts border */
+        border-bottom: solid 2px rgb(163, 225, 241);
+        border-right: solid 2px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+        border-left: solid 1px rgb(163, 225, 241);
+    }
+    #mtul{ /*Marcel Tabelle unter links border */
+        border-bottom: solid 2px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+    }
+    /* Preisliste Ende*/
+    
+    #gwrapper
+    {
+        margin-top: 125px;
+        margin-left: 200px;
+        height: 500px;
+        display: inline-block;
+        z-index: 1;
+        margin-bottom: 600px;
+    }
+    
+    
+    #Gwrapper h2
+    {
+        margin-left: 400px;
+        width: 400px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+    }
+    #gwrapper #Gesangk{
+        width: 1300px;
+        text-align: center;
+    }
+    
+    #gwrapper #gesangk1
+    {
+        width: 500px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 50px;
+        position: absolute;
+        right: 0;
+        height: 450px;
+    
+    }
+    
+    #gwrapper #gesangk2
+    {
+        width: 500px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 50px;
+        position: absolute;
+        left: 0;
+        height: 450px;
+        z-index: 1;
+    }
+    
+    #gwrapper #preisegesangk
+    {
+        width: 500px;
+        margin-top: 700px;
+        background-color: white;
+        padding: 50px;
+        position: absolute;
+        left: 0;
+        height: 450px;
+    }
+    
+    #gwrapper #preisegesangk h2
+    {
+    margin-left: 50px;
+    }
+    
+    #gwrapper
+    {
+        margin-top: 125px;
+        margin-left: 200px;
+        position: relative;
+        
+    }
+    
+    
+    #Gwrapper h2
+    {
+        margin-left: 400px;
+        width: 400px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+    }
+    #gwrapper #Gesange{
+        width: 1300px;
+        text-align: center;
+    }
+    
+    #gwrapper #gesange1
+    {
+        width: 500px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 50px;
+        position: absolute;
+        right: 0;
+        height: 450px;
+        border-radius: 25px;
+    }
+    
+    #gwrapper #gesange2
+    {
+        width: 500px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 50px;
+        position: absolute;
+        left: 0;
+        height: 450px;
+        border-radius: 25px;
+    }
+    
+    #gwrapper #preisegesange
+    {
+        width: 500px;
+        margin-top: 700px;
+        background-color: white;
+        padding: 50px;
+        position: absolute;
+        left: 0;
+        height: 450px;
+        border-radius: 25px;
+    }
+    
+    #gwrapper #preisegesange h2
+    {
+    margin-left: 50px;
+    }
+    
+    
+    
+    
+    #gwrapper #bildindex
+    {
+    margin-top: -75px;
+    width: 750px;
+    background-color: black;
+    margin-left: 250px;
+    height: 500px;
+    border-radius: 25px;
+    }
+    
+    #gwrapper #bildindex img
+    {
+        width:  750px;
+        height: 500px;
+        border-radius: 25px;
+    
+    }
+    
+    #gwrapper #indext2
+    {
+        width: 500px;
+        background-color: white;
+        padding: 50px;
+        position: absolute;
+        height: 450px;
+        border-radius: 25px;
+        top: 522px;
+    }
+    
+    #gwrapper #indext1
+    {
+        width: 500px;
+        margin-top: 100px;
+        margin-left: 700px;
+        background-color: white;
+        padding: 50px;
+        height: 450px;
+        border-radius: 25px;
+        margin-bottom: 100px;
+    }
+    
+    #gwrapper #headkontakt
+    {
+        margin-top: -50px;
+        margin-left: 450px;
+        width: 450px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+    
+    }
+    
+    #gwrapper #kontakttext1
+    {
+        width: 500px;
+        margin-top: 50px;
+        background-color: white;
+        padding: 50px;
+        position: absolute;
+        margin-left: 700px;
+        height: 450px;
+        border-radius: 25px;
+    }
+    
+    #gwrapper #kontakttext2
+    {
+        width: 500px;
+        margin-top: 50px;
+        background-color: white;
+        padding: 50px;
+        position: absolute;
+        left: 0;
+        height: 450px;
+        border-radius: 25px;
+    }
+
+    #gwrapper iframe
+    {
+        width: 750px;
+        height: 600px;
+        margin-top: 650px;
+        margin-left: 300px;
+        margin-bottom: 150px;
+        background-color: white;
+        padding: 10px;
+    }
+    
+    #gwrapper #anmeldungkurshead
+    {
+        margin-top: -50px;
+        margin-left: 325px;
+        width: 450px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+    
+    }
+    
+    #gwrapper #textformularkurs
+    {
+        
+        margin-left: 700px;
+        margin-right: 250px;
+        margin-top: 50px;
+        height: 500px;
+        width: 350px;
+        background-color: white;
+        padding: 50px;
+        border-radius: 25px;
+    
+    }
+    
+    #gwrapper #kursformular
+    {
+    position: absolute;
+    background-color: white;
+    padding: 100px;
+    height: 500px;
+    width: 400px;
+    border-radius: 25px;
+    top: 30px;
+    }
+    
+    label{
+        display: block;
+    }
+    
+    #gwrapper #anmeldungkurs2{
+        margin-left: 300px;
+    
+    }
+    
+    #gwrapper #anmeldungkurs1{
+        position: absolute;
+        
+    }
+    
+    #gwrapper #kursformular label
+    {
+        padding: 10px;
+    }
+    
+    #gwrapper #kursformular input
+    {
+        margin-bottom: 10px;
+    }
+    
+    #gwrapper #anmeldungwhead
+    {
+        margin-top: -50px;
+        margin-left: 325px;
+        width: 450px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+    
+    }
+    
+    #gwrapper #anmeldungw
+    {
+        left: 50px;
+        position: absolute;
+        top: 150px;
+        background-color: white;
+        width: 200px;
+        height: 250px;
+        padding-left: 20px;
+    }
+    
+    #gwrapper #anmeldungw input
+    {
+    margin: 10px;
+    }
+    
+    #gwrapper #anmeldungw h2
+    {
+        margin: 20px;
+    }
+    
+    #gwrapper #registrierungw
+    {
+        left: 450px;
+        position: absolute;
+        top: 150px;
+        background-color: white;
+        width: 200px;
+        height: 750px;
+        padding-left: 20px;
+        margin-bottom: 150px;
+    }
+    #gwrapper #registrierungw input
+    {
+    margin: 10px;
+    }
+    #gwrapper #registrierungw h2
+    {
+        margin: 20px;
+    }
+    
+    #nwrapper #Datenschutz {
+        width: 1000px;
+        margin-top: 100px;
+        margin-left:300px ;
+        margin-bottom: 200px;
+        background-color: white;
+        padding: 50px;
+        border-radius: 25px;
+    }
+    #impressum{
+        background-color: white;
+        border-radius: 10px;
+        padding: 25px;
+        margin-bottom: 30px;
+    }
+  }
+
+
+  /*handy screen///////////////////////////////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  */
+  
+  
+  
+  
+  @media (max-width:640px){
+    :root{
+        /*Farben deklaration*/
+        --hintergrund: rgb(223, 229, 246); 
+        --kopf: rgb(186, 181, 234);
+        --navigation: rgb(177, 213, 244);
+    }
+    body{
+        background-color: var(--hintergrund);
+        
+    }
+    html,body{
+        height: auto;
+    }
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        height: 75px;
+        background-color: var(--kopf);
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 12px;     
+        top: 0;
+        z-index: 1;
+        position: absolute;
+    }
+    header h1 {
+
+        margin-top: 15px;
+    }
+    header .menu h3 {
+
+        margin-left: 30px;
+        top: 0;
+        margin-top: 40px;
+    }
+    
+    #navwrapper , .Navblock{
+        position: absolute;
+        height: 100%;
+        z-index: 0;
+        top: 0px;
+        display: block;
+    }
+    .menu:hover .Navblock {
+        display: block;
+    }
+    nav{
+        padding-top: 100px;
+        width: 133px;
+        height: 100%;
+        background-color: var(--navigation);
+        position: fixed;
+        left: 0px;
+        z-index: 0;
+    }
+    nav ul li{
+        position: relative;
+        list-style: none;
+        padding: 5px 5px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        padding: 10px 0px;
+        font-size: 18px;
+        
+    } 
+    nav ul li ul{
+        display: none;
+        position: absolute;
+        top: -5px;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-left: 128px;
+        list-style: none;
+        width: 120px;
+        background-color: var(--navigation);
+        border-radius: 0px 10px 10px 0px;
+        padding-bottom: 5px;
+        
+    }
+    nav ul li:hover ul a{
+        display: block;
+        
+    }
+    nav ul li:hover ul{
+        display: block;
+    }
+    nav ul li ul li{
+        padding-left: -10px;
+    }
+    nav ul li ul li a{
+        width: 100px;
+    }
+    nav a:hover{
+        background-color: white;
+        border-radius: 4px;
+    }
+    main{
+        margin: 300px;
+    }
+    footer{
+
+        background-color: var(--kopf);
+        height: 55px;
+        z-index: 0;
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-top: 150px;
+        position: relative;
+    }
+    footer a{
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+    #wrapper{
+        height: auto;
+    }
+
+    #kihwrapper #heading{
+        margin-top: -100px;
+        width: 100%;
+        text-align: center;
+    }
+    #kihwrapper h2{
+        background-color: white;
+        border: 2px solid black;
+        display: inline;
+        padding: 10px 50px;
+        margin-left: -100px;
+        margin-top: -50px;
+        white-space: nowrap;
+    }
+    #kihwrapper a{
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    #kihwrapper #txt1{
+        width: 200px;
+        background-color: white;
+        padding: 20px;
+        margin-top: 50px;
+        margin-left: -60px;
+    }
+    #kihwrapper #txt2{
+        width: 200px;
+        background-color: white;
+        padding: 20px;
+        margin-top: 50px;
+        margin-left: -60px;
+        margin-bottom: -200px;
+    }
+    #d2 img, #d3 img , #d1 img ,#d4 img, #d5 img , #d6 img {
+        left: 0;
+        top: 0;
+        background-color: white;
+        width: 80px;
+        height: 80px;
+    } 
+    #kihwrapper #d1{
+        position: absolute;
+        margin-top: 100px;
+    }
+    #kihwrapper #d2{
+        position: relative;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    #kihwrapper #d3{
+        position: absolute;
+    }
+    #kihwrapper #d4{
+        position: relative;
+        margin-left: 100px;
+    }
+    #kihwrapper #d5{
+        position: absolute;
+    }
+    #kihwrapper #d6{
+        position: relative;
+        margin-left: 100px;
+    }
+    #mwrapper
+    {
+        margin-top: 125px;
+        margin-left: 200px;
+    }
+    
+    #mwrapper #kkhauptschrift
+    {
+        margin-left: 50px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+        
+    }
+    #mwrapper .klavierk{
+        width: 200px;
+        text-align: center;
+    }
+    #mwrapper .kk1{
+        width: 200px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 50px;
+        height: 460px;
+        border-radius: 25px;
+    }
+    #mwrapper .kk2{
+        width: 200px;
+        background-color: white;
+        padding: 50px;
+        margin-top: 50px;
+        height: 400px;
+        border-radius: 25px;
+    }
+    #mwrapper #kkbild{
+        width: 100px;
+        padding: 50px;
+        height: 200px;
+        margin-left: -50px;
+        border-radius: 25px;
+    }
+    #mwrapper #kkbild img{
+        height: 200px;
+        width: 300px;
+    }
+    
+    #mwrapper .kkpreisliste{
+        width: 310px;
+        padding: 20px;
+        height: 250px;
+        background-color: white;
+        border-radius: 25px;
+    
+    }
+    #kihwrapper .K-Instrumente{
+        border-radius: 100%;
+        height: 100px;
+        width: 100px;
+        margin-top: 30px;
+        margin-left: -80px;
+        background-color: white;
+    }
+    #kihwrapper .K-Instrumente img{
+        border-radius: 100%;
+        padding-left: 5px;
+    }
+    /* Preisliste Original */
+    #mtableprice td{
+        padding: 8px;
+       
+    }
+    .mlighttd {
+        background-color: rgb(166, 232, 249);
+    }
+    .mdarktd{
+        background-color: rgb(79, 205, 237);
+    }
+    
+    table {
+        border-spacing: 0px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    
+    #mtol{ /* Marcel Tabelle oben links border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+    }
+    #mto{ /* Marcel Tabelle oben border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+        border-left: solid 1px rgb(163, 225, 241);
+    }
+    .mtl{ /* Marcel Tabelle links border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+    }
+    .mtm{ /*Marcel Tabelle Mittlere border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+        border-left: solid 1px rgb(163, 225, 241);
+        
+    }
+    #mtor{ /*Marcel Tabelle oben rechts border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-left: solid 1px rgb(163, 225, 241);
+        border-right: solid 2px rgb(163, 225, 241);
+    }
+    .mtr{ /*Marcel Tabelle rechts border */
+        border-bottom: solid 1px rgb(163, 225, 241);
+        border-left: solid 1px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+        border-right: solid 2px rgb(163, 225, 241);
+    }
+    #mtu{ /*Marcel Tabelle unten border*/
+        border-left: solid 1px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+        border-bottom: solid 2px rgb(163, 225, 241);
+    }
+    #mtur{ /*Marcel Tabelle unter rechts border */
+        border-bottom: solid 2px rgb(163, 225, 241);
+        border-right: solid 2px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+        border-left: solid 1px rgb(163, 225, 241);
+    }
+    #mtul{ /*Marcel Tabelle unter links border */
+        border-bottom: solid 2px rgb(163, 225, 241);
+        border-right: solid 1px rgb(163, 225, 241);
+        border-top: solid 1px rgb(163, 225, 241);
+    }
+    /* Preisliste Ende*/
+    
+    #gwrapper
+    {
+        margin-top: 125px;
+        margin-left: 200px;
+        height: 500px;
+        display: inline-block;
+        z-index: 1;
+        margin-bottom: 600px;
+    }
+    
+    
+    #Gwrapper h2
+    {
+        width: 400px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+    }
+    #gwrapper #Gesangk{
+        width: 200px;
+        text-align: center;
+    }
+    
+    #gwrapper #gesangk1
+    {
+        width: 200px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 50px;
+        right: 0;
+        height: 450px;
+    
+    }
+    
+    #gwrapper #gesangk2
+    {
+        width: 200px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 50px;
+        left: 0;
+        height: 450px;
+        z-index: 1;
+    }
+    
+    #gwrapper #preisegesangk
+    {
+        width: 200px;
+        margin-top: 700px;
+        background-color: white;
+        padding: 50px;
+        left: 0;
+        height: 450px;
+    }
+    
+    #gwrapper #preisegesangk h2
+    {
+    margin-left: 50px;
+    }
+    
+    #gwrapper
+    {
+        margin-top: 125px;
+        margin-left: 200px;
+        
+    }
+    
+    
+    #Gwrapper h2
+    {
+        width: 200px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+    }
+    #gwrapper #Gesange{
+        width: 200px;
+        text-align: center;
+    }
+    
+    #gwrapper #gesange1
+    {
+        width: 200px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 50px;
+        right: 0;
+        height: 450px;
+        border-radius: 25px;
+    }
+    
+    #gwrapper #gesange2
+    {
+        width: 200px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 50px;
+        left: 0;
+        height: 450px;
+        border-radius: 25px;
+    }
+    
+    #gwrapper #preisegesange
+    {
+        width: 200px;
+        margin-top: 700px;
+        background-color: white;
+        padding: 50px;
+        left: 0;
+        height: 450px;
+        border-radius: 25px;
+    }
+    
+    #gwrapper #preisegesange h2
+    {
+    margin-left: 50px;
+    }
+    
+    
+    
+    
+    #gwrapper #bildindex
+    {
+    margin-top: 
+    ---5px;
+    margin-bottom: 50px;
+    width: 200px;
+    background-color: black;
+    height: 100px;
+    border-radius: 25px;
+    }
+    
+    #gwrapper #bildindex img
+    {
+        width:  300px;
+        height: 200px;
+        border-radius: 25px;
+    
+    }
+    
+    #gwrapper #indext2
+    {
+        width: 200px;
+        background-color: white;
+        padding: 50px;
+        height: 450px;
+        border-radius: 25px;
+        margin-top: 200px;
+    }
+    
+    #gwrapper #indext1
+    {
+        width: 200px;
+        margin-top: 100px;
+        background-color: white;
+        padding: 50px;
+        height: 450px;
+        border-radius: 25px;
+        margin-bottom: 200px;
+    }
+    
+    #gwrapper #headkontakt
+    {
+        margin-top: 50px;
+        margin-left: 30px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+    
+    }
+    
+    #gwrapper #kontakttext1
+    {
+        width: 200px;
+        margin-top: 50px;
+        background-color: white;
+        padding: 50px;
+        height: 450px;
+        border-radius: 25px;
+    }
+    
+    #gwrapper #kontakttext2
+    {
+        width: 200px;
+        margin-top: 50px;
+        background-color: white;
+        padding: 50px;
+        left: 0;
+        height: 450px;
+        border-radius: 25px;
+    }
+    
+    #gwrapper iframe
+    {
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+        background-color: white;
+        padding: 10px;
+    }
+    
+    #gwrapper #anmeldungkurshead
+    {
+        margin-top: 20px;
+        margin-left: 30px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+    
+    }
+    
+    #gwrapper #textformularkurs
+    {
+        margin-top: 50px;
+        height: 500px;
+        width: 200px;
+        background-color: white;
+        padding: 50px;
+        border-radius: 25px;
+    
+    }
+    
+    #gwrapper #kursformular
+    {
+    background-color: white;
+    padding: 100px;
+    height: 720px;
+    margin-top: 50px;
+    width: 100px;
+    border-radius: 25px;
+    top: 30px;
+    text-align: center;
+    }
+    
+    label{
+        display: block;
+    }
+    
+    
+    #gwrapper #kursformular label
+    {
+        padding: 10px;
+    }
+    
+    #gwrapper #kursformular input
+    {
+        margin-bottom: 10px;
+    }
+    
+    #gwrapper #anmeldungwhead
+    {
+        margin-top: 60px;
+        margin-left: 20px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: white;
+        text-align: center;
+    
+    }
+    
+    #gwrapper #anmeldungw
+    {
+        left: 50px;
+        top: 150px;
+        background-color: white;
+        width: 250px;
+        height: 250px;
+        padding-left: 20px;
+    }
+    
+    #gwrapper #anmeldungw input
+    {
+    margin: 10px;
+    }
+    
+    #gwrapper #anmeldungw h2
+    {
+        margin: 20px;
+    }
+    
+    #gwrapper #registrierungw
+    {
+        left: 450px;
+        top: 150px;
+        background-color: white;
+        width: 250px;
+        height: 750px;
+        padding-left: 20px;
+        margin-bottom: 150px;
+    }
+    #gwrapper #registrierungw input
+    {
+    margin: 10px;
+    }
+    #gwrapper #registrierungw h2
+    {
+        margin: 20px;
+    }
+    
+    #nwrapper #Datenschutz {
+        margin-left: 170px;
+        width: 200px;
+        margin-top: 150px;
+        margin-bottom: 200px;
+        background-color: white;
+        padding: 50px;
+        border-radius: 25px;
+    }
+    #impressum{
+        background-color: white;
+        border-radius: 10px;
+        padding: 25px;
+        margin-bottom: 30px;
+        width: 250px;
+    }
+  }

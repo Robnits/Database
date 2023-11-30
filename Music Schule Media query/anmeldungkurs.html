@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Private Musikschule Thübingen</h1>
+            </header>
+            <div id="navwrapper">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Startseite</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="anmeldungkurs.html">Anmeldung für Kurs</a></li>
+                        <li><a href="kinderinstrumente.html">Kinder Instrumente</a></li>
+                        <li><a href="">Erwachsene Instrumente</a></li>
+
+                        <li><a href="" id="onhover">Gesang</a>
+                            <ul>
+                                <li><a href="gesangerwachsene.html">Erwachsene</a></li>
+                                <li><a href="gesangKinder.html">Kinder</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="anmelden.html">Anmelden</a></li>
+                    </ul>
+                </nav>
+            </div>
+        
+        <div id="gwrapper">
+            <div id="anmeldungkurshead">
+                <h2>Anmeldung zu den Kursen</h2>
+            </div>
+            <div id="textformularkurs">
+                <p><b>Möchten Sie sich für einen unserer Musik- oder Gesangskurse anmelden?</b><br> <br>
+                    Dann füllen Sie bitte das unterstehende Anmeldeformular aus! <br>
+                    Dort können Sie den gewünschten Kurs auswählen, Ihre Kontaktdaten eingeben und weitere Informationen zur Zahlung und den Kursbedingungen erhalten. <br> <br>
+                    Wir werden uns dann so bald wie möglich bei Ihnen melden, um Ihre Anmeldung zu bestätigen und weitere Einzelheiten zu besprechen.<br> <br>
+                    Bitte haben Sie jedoch Verständnis dafür, dass es aufgrund hoher Nachfrage und begrenzter Kursplätze etwas Zeit in Anspruch nehmen kann, bis wir Ihnen eine Rückmeldung geben können.<br> <br>
+                </p>   
+                    </div>
+
+            <div id="kursformular">
+                <form action="test.php" method="get">
+                    <div id="anmeldungkurs1">
+                    <label>E-Mail</label>
+                    <input type="email" name="Email"><br>
+                    <label>Anrede</label>
+                    <input type="text" name="Anrede"><br>
+                    <label>Geburtsdatum</label>
+                    <input type="date" name="Birthdate"><br>
+                    <label>Vorname</label>
+                    <input type="text" name="firstname"><br>
+                    <label>Nachname</label>
+                    <input type="text" name="Lastname"><br>
+                    <label>Telefonnummer</label>
+                    <input type="tel" name="Telephone"><br>
+                    <label>Straße</label>
+                    <input type="text" name="Street"><br>
+                    <label>Ort</label>
+                    <input type="text" name="ort"><br>
+                    </div>
+
+                    <div id="anmeldungkurs2">
+                        <label>Unterrichtswahl</label><br>
+                        <select name="Unterrichtswahl">
+                            <option value="GitarreKinder">Gitarre Kinder</option>
+                            <option value="KontrabassKinder" >Kontrabass Kinder</option>
+                            <option value="AkkordeonKinder">Akkordeon Kinder</option>
+                            <option value="KlavierKinder">Klavier Kinder</option>
+                            <option value="GeigeKinder">Geige Kinder</option>
+                            <option value="GesangKinder">Gesang Kinder</option>
+                            <option value="TrompeteKinder">Trompete Kinder</option>
+                            <option value="GitarreErwachsene">Gitarre Erwachsene</option>
+                            <option value="KontrabassErwachsene" >Kontrabass Erwachsene</option>
+                            <option value="AkkordeonErwachsene">Akkordeon Erwachsene</option>
+                            <option value="KlavierErwachsene">Klavier Erwachsene</option>
+                            <option value="GeigeErwachsene">Geige Erwachsene</option>
+                            <option value="GesangErwachsene">Gesang Erwachsene</option>
+                            <option value="TrompeteErwachsene">Trompete Erwachsene</option>
+                        </select>
+
+                        <label>Leihinstrument</label><br>
+                        <select name="Leihinstrument">
+                            <option value="Ja">Ja</option>
+                            <option value="Nein" >Nein</option>
+
+                        </select>
+
+
+                        <label>Bezahlmethode</label><br>
+                        <select name="Bezahlmethode">
+                            <option value="Bargeld">Bargeld</option>
+                            <option value="Paypal">Paypal</option>
+                            <option value="Lastschrift">Lastschrift</option>
+                            <option value="Kreditkarte">Kreditkarte</option>
+                        </select>
+                        <input type="submit" name="eingabe">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <a href="impressum.html">Impressum</a>
+            <a href="http://backen-mit-spass.de/images/content/1351/kekse_mit_schokoladenstueckchen.jpg">Cookies</a>
+            <a href="Datenschutz.html">Datenschutz</a>
+            <a href="tabelle.html">Sitemap</a>
+        </footer>
+        </div>          
+    </body>
+    
+</html>
