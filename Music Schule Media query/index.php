@@ -52,18 +52,19 @@
                     $abfrage = "SELECT * FROM `gaeste`";
                     $db_erg= mysqli_query ($db_link, $abfrage);
                     echo "Formulareingaben:<br />";  
-                    //echo "<table>";
+                    echo "<table>";
+                    echo "<tr><th><p>Vorname</p></th><th><p>Nachname</p></th></tr>";
+                    
                     while ($datensatz = mysqli_fetch_array ($db_erg, MYSQLI_ASSOC))
                     {
-                         echo "Vorname: ";
-                         echo @$datensatz['VName'];  //     aus der DB
-                         echo "<br />";
-                         echo "Name: ";
-                         echo @$datensatz['NName'];
-                         echo "<br />";
+                        echo "<tr><td>" . @$datensatz['VName'] . "</td>";
+                        echo "<td>" . @$datensatz['NName'] . "</td></tr>";
                     }
+                    echo "</table>";
                 ?>
-                
+                <tr>
+                    <td></td>
+                </tr>
             </div>
             <div id="indext1">
                 <p> <h3>bei der Private Musikschule Thübingen!</h3><br> <br>

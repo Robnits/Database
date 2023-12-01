@@ -31,7 +31,7 @@
             </nav>
         </div>
         <div id="kihwrapper" style="background-color: white; width: 500px;" >
-            <form method="post">
+            <form action="test.php" method="post" >
                 <div id="anmeldungw">
                 <h2>Anmeldung</h2>
                 <label>Vorname</label>
@@ -41,16 +41,6 @@
                 <input type="submit">
             
             </form>
-
-            <?php
-                $db_link = new mysqli('localhost', 'root', '', 'thuebingen');
-
-                $vname = $_POST['vname'];
-                $nname = $_POST['nname'];
-
-                $insert = "INSERT INTO gaeste (VName, NName) VALUES ('$vname', '$nname')";
-                $result = $db_link->query($insert);
-            ?>
         </div>
 
 

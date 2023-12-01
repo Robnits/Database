@@ -278,16 +278,8 @@
     }
     .mdarktd{
         background-color: rgb(79, 205, 237);
-    }
-    
-    table {
-        border-spacing: 0px;
-        width: 100%;
-        height: 100%;
-    }
-    
-    
-    
+    }   
+
     #mtol{ /* Marcel Tabelle oben links border */
         border-bottom: solid 1px rgb(163, 225, 241);
         border-right: solid 1px rgb(163, 225, 241);
@@ -338,7 +330,8 @@
         border-top: solid 1px rgb(163, 225, 241);
     }
     /* Preisliste Ende*/
-    
+
+
     #gwrapper
     {
         margin-top: 125px;
